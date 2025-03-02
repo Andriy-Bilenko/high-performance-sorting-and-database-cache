@@ -1,0 +1,1017 @@
+desc: (none)
+cmd: ./sorter unsorted_1GB.txt sorted_1GB.txt
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=2894556
+mem_heap_B=94454306
+mem_heap_extra_B=4110
+mem_stacks_B=0
+heap_tree=peak
+n2: 94454306 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 94371840 0x10FBC3: std::__new_allocator<double>::allocate(unsigned long, void const*) (new_allocator.h:151)
+  n1: 94371840 0x10D632: allocate (alloc_traits.h:515)
+   n1: 94371840 0x10D632: std::_Vector_base<double, std::allocator<double> >::_M_allocate(unsigned long) (stl_vector.h:380)
+    n1: 94371840 0x10C6DF: std::vector<double, std::allocator<double> >::reserve(unsigned long) (vector.tcc:79)
+     n1: 94371840 0x10A4B5: sort_and_save_chunk(std::basic_ifstream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:22)
+      n1: 94371840 0x10ACBC: sort_large_file(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:99)
+       n0: 94371840 0x10B008: main (sorter.cpp:126)
+ n0: 82466 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=2
+#-----------
+time=20359112199
+mem_heap_B=94454249
+mem_heap_extra_B=4095
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=45187334073
+mem_heap_B=94454249
+mem_heap_extra_B=4095
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=73850505440
+mem_heap_B=94454721
+mem_heap_extra_B=4111
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=211407191053
+mem_heap_B=94454721
+mem_heap_extra_B=4111
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=229451543385
+mem_heap_B=94454281
+mem_heap_extra_B=4103
+mem_stacks_B=0
+heap_tree=detailed
+n2: 94454281 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 94371840 0x10FBC3: std::__new_allocator<double>::allocate(unsigned long, void const*) (new_allocator.h:151)
+  n1: 94371840 0x10D632: allocate (alloc_traits.h:515)
+   n1: 94371840 0x10D632: std::_Vector_base<double, std::allocator<double> >::_M_allocate(unsigned long) (stl_vector.h:380)
+    n1: 94371840 0x10C6DF: std::vector<double, std::allocator<double> >::reserve(unsigned long) (vector.tcc:79)
+     n1: 94371840 0x10A4B5: sort_and_save_chunk(std::basic_ifstream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:22)
+      n1: 94371840 0x10ACBC: sort_large_file(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:99)
+       n0: 94371840 0x10B008: main (sorter.cpp:126)
+ n0: 82441 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=7
+#-----------
+time=256355171320
+mem_heap_B=94454281
+mem_heap_extra_B=4103
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=284956192535
+mem_heap_B=94454753
+mem_heap_extra_B=4119
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=422513492272
+mem_heap_B=94454753
+mem_heap_extra_B=4119
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=435216278731
+mem_heap_B=94454313
+mem_heap_extra_B=4103
+mem_stacks_B=0
+heap_tree=detailed
+n2: 94454313 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 94371840 0x10FBC3: std::__new_allocator<double>::allocate(unsigned long, void const*) (new_allocator.h:151)
+  n1: 94371840 0x10D632: allocate (alloc_traits.h:515)
+   n1: 94371840 0x10D632: std::_Vector_base<double, std::allocator<double> >::_M_allocate(unsigned long) (stl_vector.h:380)
+    n1: 94371840 0x10C6DF: std::vector<double, std::allocator<double> >::reserve(unsigned long) (vector.tcc:79)
+     n1: 94371840 0x10A4B5: sort_and_save_chunk(std::basic_ifstream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:22)
+      n1: 94371840 0x10ACBC: sort_large_file(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:99)
+       n0: 94371840 0x10B008: main (sorter.cpp:126)
+ n0: 82473 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=11
+#-----------
+time=453693065269
+mem_heap_B=94454313
+mem_heap_extra_B=4103
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=467550653649
+mem_heap_B=94454370
+mem_heap_extra_B=4118
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=495882389760
+mem_heap_B=94454785
+mem_heap_extra_B=4119
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=633439148835
+mem_heap_B=94454785
+mem_heap_extra_B=4119
+mem_stacks_B=0
+heap_tree=detailed
+n2: 94454785 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 94371840 0x10FBC3: std::__new_allocator<double>::allocate(unsigned long, void const*) (new_allocator.h:151)
+  n1: 94371840 0x10D632: allocate (alloc_traits.h:515)
+   n1: 94371840 0x10D632: std::_Vector_base<double, std::allocator<double> >::_M_allocate(unsigned long) (stl_vector.h:380)
+    n1: 94371840 0x10C6DF: std::vector<double, std::allocator<double> >::reserve(unsigned long) (vector.tcc:79)
+     n1: 94371840 0x10A4B5: sort_and_save_chunk(std::basic_ifstream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:22)
+      n1: 94371840 0x10ACBC: sort_large_file(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:99)
+       n0: 94371840 0x10B008: main (sorter.cpp:126)
+ n0: 82945 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=15
+#-----------
+time=661500517070
+mem_heap_B=94454434
+mem_heap_extra_B=4118
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=680258515832
+mem_heap_B=94454849
+mem_heap_extra_B=4119
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=768416691698
+mem_heap_B=94454849
+mem_heap_extra_B=4119
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=796149434760
+mem_heap_B=119394
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=821901256715
+mem_heap_B=119394
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=837748529318
+mem_heap_B=119394
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=860844508600
+mem_heap_B=119337
+mem_heap_extra_B=175
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=880091161733
+mem_heap_B=119394
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=903187147866
+mem_heap_B=119394
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=918584474282
+mem_heap_B=119394
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=937831124874
+mem_heap_B=119394
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=957077772519
+mem_heap_B=119394
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=980173759254
+mem_heap_B=119394
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=995571081011
+mem_heap_B=119337
+mem_heap_extra_B=175
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=1018667066197
+mem_heap_B=119337
+mem_heap_extra_B=175
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=1043397196403
+mem_heap_B=119394
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=detailed
+n5: 119394 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x49264BF: pool (eh_alloc.cc:235)
+  n1: 73728 0x49264BF: __static_initialization_and_destruction_0 (eh_alloc.cc:373)
+   n1: 73728 0x49264BF: _GLOBAL__sub_I_eh_alloc.cc (eh_alloc.cc:456)
+    n1: 73728 0x40051D6: call_init (dl-init.c:74)
+     n1: 73728 0x40051D6: call_init (dl-init.c:26)
+      n1: 73728 0x40052AC: _dl_init (dl-init.c:121)
+       n1: 73728 0x401D61F: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+        n1: 73728 0x2: ???
+         n1: 73728 0x1FFF00072A: ???
+          n1: 73728 0x1FFF000733: ???
+           n0: 73728 0x1FFF000744: ???
+ n1: 40960 0x499EF74: _M_allocate_internal_buffer (fstream.tcc:56)
+  n1: 40960 0x499EF74: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (fstream.tcc:49)
+   n2: 40960 0x49A33BA: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (fstream.tcc:187)
+    n1: 32768 0x49A401F: open (fstream:342)
+     n1: 32768 0x49A401F: open (fstream:739)
+      n3: 32768 0x49A401F: std::basic_ifstream<char, std::char_traits<char> >::basic_ifstream(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (fstream:607)
+       n1: 24576 0x10DF0F: construct<std::basic_ifstream<char>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&> (new_allocator.h:191)
+        n1: 24576 0x10DF0F: construct<std::basic_ifstream<char>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&> (alloc_traits.h:575)
+         n1: 24576 0x10DF0F: void std::vector<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::_M_realloc_append<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:634)
+          n1: 24576 0x10CD8E: std::basic_ifstream<char, std::char_traits<char> >& std::vector<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:123)
+           n1: 24576 0x10A863: merge_sorted_files(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:58)
+            n1: 24576 0x10AD1A: sort_large_file(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:106)
+             n0: 24576 0x10B008: main (sorter.cpp:126)
+       n1: 8192 0x10CD37: construct<std::basic_ifstream<char>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&> (new_allocator.h:191)
+        n1: 8192 0x10CD37: construct<std::basic_ifstream<char>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&> (alloc_traits.h:575)
+         n1: 8192 0x10CD37: std::basic_ifstream<char, std::char_traits<char> >& std::vector<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:117)
+          n1: 8192 0x10A863: merge_sorted_files(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:58)
+           n1: 8192 0x10AD1A: sort_large_file(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:106)
+            n0: 8192 0x10B008: main (sorter.cpp:126)
+       n0: 0 in 1 place, below massif's threshold (1.00%)
+    n1: 8192 0x49A44F7: open (fstream:342)
+     n1: 8192 0x49A44F7: open (fstream:1011)
+      n2: 8192 0x49A44F7: std::basic_ofstream<char, std::char_traits<char> >::basic_ofstream(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (fstream:879)
+       n1: 8192 0x10A928: merge_sorted_files(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:65)
+        n1: 8192 0x10AD1A: sort_large_file(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:106)
+         n0: 8192 0x10B008: main (sorter.cpp:126)
+       n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 2360 0x4CA8488: __fopen_internal (iofopen.c:65)
+  n1: 2360 0x496B3CE: std::__basic_file<char>::open(char const*, std::_Ios_Openmode, int) (basic_file.cc:260)
+   n2: 2360 0x49A33A0: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (fstream.tcc:184)
+    n1: 1888 0x49A401F: open (fstream:342)
+     n1: 1888 0x49A401F: open (fstream:739)
+      n2: 1888 0x49A401F: std::basic_ifstream<char, std::char_traits<char> >::basic_ifstream(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (fstream:607)
+       n1: 1416 0x10DF0F: construct<std::basic_ifstream<char>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&> (new_allocator.h:191)
+        n1: 1416 0x10DF0F: construct<std::basic_ifstream<char>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&> (alloc_traits.h:575)
+         n1: 1416 0x10DF0F: void std::vector<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::_M_realloc_append<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:634)
+          n1: 1416 0x10CD8E: std::basic_ifstream<char, std::char_traits<char> >& std::vector<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:123)
+           n1: 1416 0x10A863: merge_sorted_files(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:58)
+            n1: 1416 0x10AD1A: sort_large_file(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:106)
+             n0: 1416 0x10B008: main (sorter.cpp:126)
+       n0: 472 in 2 places, all below massif's threshold (1.00%)
+    n0: 472 in 1 place, below massif's threshold (1.00%)
+ n1: 2080 0x110B13: std::__new_allocator<std::basic_ifstream<char, std::char_traits<char> > >::allocate(unsigned long, void const*) (new_allocator.h:151)
+  n1: 2080 0x10EFA0: allocate (alloc_traits.h:515)
+   n1: 2080 0x10EFA0: std::_Vector_base<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::_M_allocate(unsigned long) (stl_vector.h:380)
+    n1: 2080 0x10DE28: void std::vector<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::_M_realloc_append<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:596)
+     n1: 2080 0x10CD8E: std::basic_ifstream<char, std::char_traits<char> >& std::vector<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:123)
+      n1: 2080 0x10A863: merge_sorted_files(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:58)
+       n1: 2080 0x10AD1A: sort_large_file(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:106)
+        n0: 2080 0x10B008: main (sorter.cpp:126)
+ n0: 266 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=31
+#-----------
+time=1058227121024
+mem_heap_B=119394
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=1074704798127
+mem_heap_B=119394
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=1101069078658
+mem_heap_B=119394
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=1112603480586
+mem_heap_B=119394
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=1139833052654
+mem_heap_B=119394
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=detailed
+n5: 119394 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x49264BF: pool (eh_alloc.cc:235)
+  n1: 73728 0x49264BF: __static_initialization_and_destruction_0 (eh_alloc.cc:373)
+   n1: 73728 0x49264BF: _GLOBAL__sub_I_eh_alloc.cc (eh_alloc.cc:456)
+    n1: 73728 0x40051D6: call_init (dl-init.c:74)
+     n1: 73728 0x40051D6: call_init (dl-init.c:26)
+      n1: 73728 0x40052AC: _dl_init (dl-init.c:121)
+       n1: 73728 0x401D61F: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+        n1: 73728 0x2: ???
+         n1: 73728 0x1FFF00072A: ???
+          n1: 73728 0x1FFF000733: ???
+           n0: 73728 0x1FFF000744: ???
+ n1: 40960 0x499EF74: _M_allocate_internal_buffer (fstream.tcc:56)
+  n1: 40960 0x499EF74: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (fstream.tcc:49)
+   n2: 40960 0x49A33BA: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (fstream.tcc:187)
+    n1: 32768 0x49A401F: open (fstream:342)
+     n1: 32768 0x49A401F: open (fstream:739)
+      n3: 32768 0x49A401F: std::basic_ifstream<char, std::char_traits<char> >::basic_ifstream(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (fstream:607)
+       n1: 24576 0x10DF0F: construct<std::basic_ifstream<char>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&> (new_allocator.h:191)
+        n1: 24576 0x10DF0F: construct<std::basic_ifstream<char>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&> (alloc_traits.h:575)
+         n1: 24576 0x10DF0F: void std::vector<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::_M_realloc_append<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:634)
+          n1: 24576 0x10CD8E: std::basic_ifstream<char, std::char_traits<char> >& std::vector<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:123)
+           n1: 24576 0x10A863: merge_sorted_files(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:58)
+            n1: 24576 0x10AD1A: sort_large_file(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:106)
+             n0: 24576 0x10B008: main (sorter.cpp:126)
+       n1: 8192 0x10CD37: construct<std::basic_ifstream<char>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&> (new_allocator.h:191)
+        n1: 8192 0x10CD37: construct<std::basic_ifstream<char>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&> (alloc_traits.h:575)
+         n1: 8192 0x10CD37: std::basic_ifstream<char, std::char_traits<char> >& std::vector<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:117)
+          n1: 8192 0x10A863: merge_sorted_files(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:58)
+           n1: 8192 0x10AD1A: sort_large_file(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:106)
+            n0: 8192 0x10B008: main (sorter.cpp:126)
+       n0: 0 in 1 place, below massif's threshold (1.00%)
+    n1: 8192 0x49A44F7: open (fstream:342)
+     n1: 8192 0x49A44F7: open (fstream:1011)
+      n2: 8192 0x49A44F7: std::basic_ofstream<char, std::char_traits<char> >::basic_ofstream(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (fstream:879)
+       n1: 8192 0x10A928: merge_sorted_files(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:65)
+        n1: 8192 0x10AD1A: sort_large_file(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:106)
+         n0: 8192 0x10B008: main (sorter.cpp:126)
+       n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 2360 0x4CA8488: __fopen_internal (iofopen.c:65)
+  n1: 2360 0x496B3CE: std::__basic_file<char>::open(char const*, std::_Ios_Openmode, int) (basic_file.cc:260)
+   n2: 2360 0x49A33A0: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (fstream.tcc:184)
+    n1: 1888 0x49A401F: open (fstream:342)
+     n1: 1888 0x49A401F: open (fstream:739)
+      n2: 1888 0x49A401F: std::basic_ifstream<char, std::char_traits<char> >::basic_ifstream(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (fstream:607)
+       n1: 1416 0x10DF0F: construct<std::basic_ifstream<char>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&> (new_allocator.h:191)
+        n1: 1416 0x10DF0F: construct<std::basic_ifstream<char>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&> (alloc_traits.h:575)
+         n1: 1416 0x10DF0F: void std::vector<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::_M_realloc_append<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:634)
+          n1: 1416 0x10CD8E: std::basic_ifstream<char, std::char_traits<char> >& std::vector<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:123)
+           n1: 1416 0x10A863: merge_sorted_files(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:58)
+            n1: 1416 0x10AD1A: sort_large_file(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:106)
+             n0: 1416 0x10B008: main (sorter.cpp:126)
+       n0: 472 in 2 places, all below massif's threshold (1.00%)
+    n0: 472 in 1 place, below massif's threshold (1.00%)
+ n1: 2080 0x110B13: std::__new_allocator<std::basic_ifstream<char, std::char_traits<char> > >::allocate(unsigned long, void const*) (new_allocator.h:151)
+  n1: 2080 0x10EFA0: allocate (alloc_traits.h:515)
+   n1: 2080 0x10EFA0: std::_Vector_base<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::_M_allocate(unsigned long) (stl_vector.h:380)
+    n1: 2080 0x10DE28: void std::vector<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::_M_realloc_append<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:596)
+     n1: 2080 0x10CD8E: std::basic_ifstream<char, std::char_traits<char> >& std::vector<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:123)
+      n1: 2080 0x10A863: merge_sorted_files(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:58)
+       n1: 2080 0x10AD1A: sort_large_file(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:106)
+        n0: 2080 0x10B008: main (sorter.cpp:126)
+ n0: 266 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=36
+#-----------
+time=1156851548975
+mem_heap_B=119394
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=1173870040706
+mem_heap_B=119337
+mem_heap_extra_B=175
+mem_stacks_B=0
+heap_tree=detailed
+n5: 119337 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x49264BF: pool (eh_alloc.cc:235)
+  n1: 73728 0x49264BF: __static_initialization_and_destruction_0 (eh_alloc.cc:373)
+   n1: 73728 0x49264BF: _GLOBAL__sub_I_eh_alloc.cc (eh_alloc.cc:456)
+    n1: 73728 0x40051D6: call_init (dl-init.c:74)
+     n1: 73728 0x40051D6: call_init (dl-init.c:26)
+      n1: 73728 0x40052AC: _dl_init (dl-init.c:121)
+       n1: 73728 0x401D61F: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+        n1: 73728 0x2: ???
+         n1: 73728 0x1FFF00072A: ???
+          n1: 73728 0x1FFF000733: ???
+           n0: 73728 0x1FFF000744: ???
+ n1: 40960 0x499EF74: _M_allocate_internal_buffer (fstream.tcc:56)
+  n1: 40960 0x499EF74: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (fstream.tcc:49)
+   n2: 40960 0x49A33BA: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (fstream.tcc:187)
+    n1: 32768 0x49A401F: open (fstream:342)
+     n1: 32768 0x49A401F: open (fstream:739)
+      n3: 32768 0x49A401F: std::basic_ifstream<char, std::char_traits<char> >::basic_ifstream(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (fstream:607)
+       n1: 24576 0x10DF0F: construct<std::basic_ifstream<char>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&> (new_allocator.h:191)
+        n1: 24576 0x10DF0F: construct<std::basic_ifstream<char>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&> (alloc_traits.h:575)
+         n1: 24576 0x10DF0F: void std::vector<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::_M_realloc_append<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:634)
+          n1: 24576 0x10CD8E: std::basic_ifstream<char, std::char_traits<char> >& std::vector<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:123)
+           n1: 24576 0x10A863: merge_sorted_files(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:58)
+            n1: 24576 0x10AD1A: sort_large_file(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:106)
+             n0: 24576 0x10B008: main (sorter.cpp:126)
+       n1: 8192 0x10CD37: construct<std::basic_ifstream<char>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&> (new_allocator.h:191)
+        n1: 8192 0x10CD37: construct<std::basic_ifstream<char>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&> (alloc_traits.h:575)
+         n1: 8192 0x10CD37: std::basic_ifstream<char, std::char_traits<char> >& std::vector<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:117)
+          n1: 8192 0x10A863: merge_sorted_files(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:58)
+           n1: 8192 0x10AD1A: sort_large_file(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:106)
+            n0: 8192 0x10B008: main (sorter.cpp:126)
+       n0: 0 in 1 place, below massif's threshold (1.00%)
+    n1: 8192 0x49A44F7: open (fstream:342)
+     n1: 8192 0x49A44F7: open (fstream:1011)
+      n2: 8192 0x49A44F7: std::basic_ofstream<char, std::char_traits<char> >::basic_ofstream(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (fstream:879)
+       n1: 8192 0x10A928: merge_sorted_files(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:65)
+        n1: 8192 0x10AD1A: sort_large_file(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:106)
+         n0: 8192 0x10B008: main (sorter.cpp:126)
+       n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 2360 0x4CA8488: __fopen_internal (iofopen.c:65)
+  n1: 2360 0x496B3CE: std::__basic_file<char>::open(char const*, std::_Ios_Openmode, int) (basic_file.cc:260)
+   n2: 2360 0x49A33A0: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (fstream.tcc:184)
+    n1: 1888 0x49A401F: open (fstream:342)
+     n1: 1888 0x49A401F: open (fstream:739)
+      n2: 1888 0x49A401F: std::basic_ifstream<char, std::char_traits<char> >::basic_ifstream(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (fstream:607)
+       n1: 1416 0x10DF0F: construct<std::basic_ifstream<char>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&> (new_allocator.h:191)
+        n1: 1416 0x10DF0F: construct<std::basic_ifstream<char>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&> (alloc_traits.h:575)
+         n1: 1416 0x10DF0F: void std::vector<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::_M_realloc_append<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:634)
+          n1: 1416 0x10CD8E: std::basic_ifstream<char, std::char_traits<char> >& std::vector<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:123)
+           n1: 1416 0x10A863: merge_sorted_files(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:58)
+            n1: 1416 0x10AD1A: sort_large_file(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:106)
+             n0: 1416 0x10B008: main (sorter.cpp:126)
+       n0: 472 in 2 places, all below massif's threshold (1.00%)
+    n0: 472 in 1 place, below massif's threshold (1.00%)
+ n1: 2080 0x110B13: std::__new_allocator<std::basic_ifstream<char, std::char_traits<char> > >::allocate(unsigned long, void const*) (new_allocator.h:151)
+  n1: 2080 0x10EFA0: allocate (alloc_traits.h:515)
+   n1: 2080 0x10EFA0: std::_Vector_base<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::_M_allocate(unsigned long) (stl_vector.h:380)
+    n1: 2080 0x10DE28: void std::vector<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::_M_realloc_append<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:596)
+     n1: 2080 0x10CD8E: std::basic_ifstream<char, std::char_traits<char> >& std::vector<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:123)
+      n1: 2080 0x10A863: merge_sorted_files(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:58)
+       n1: 2080 0x10AD1A: sort_large_file(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:106)
+        n0: 2080 0x10B008: main (sorter.cpp:126)
+ n0: 209 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=38
+#-----------
+time=1187484832097
+mem_heap_B=119394
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=1218118067248
+mem_heap_B=119394
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=1235136542300
+mem_heap_B=119394
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=1265769786483
+mem_heap_B=119337
+mem_heap_extra_B=175
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=1282788257912
+mem_heap_B=119394
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=1302242275771
+mem_heap_B=119394
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=1320075151277
+mem_heap_B=119394
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=1337907994524
+mem_heap_B=119394
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=1363846691453
+mem_heap_B=119394
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=1393425961528
+mem_heap_B=119394
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=detailed
+n5: 119394 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x49264BF: pool (eh_alloc.cc:235)
+  n1: 73728 0x49264BF: __static_initialization_and_destruction_0 (eh_alloc.cc:373)
+   n1: 73728 0x49264BF: _GLOBAL__sub_I_eh_alloc.cc (eh_alloc.cc:456)
+    n1: 73728 0x40051D6: call_init (dl-init.c:74)
+     n1: 73728 0x40051D6: call_init (dl-init.c:26)
+      n1: 73728 0x40052AC: _dl_init (dl-init.c:121)
+       n1: 73728 0x401D61F: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+        n1: 73728 0x2: ???
+         n1: 73728 0x1FFF00072A: ???
+          n1: 73728 0x1FFF000733: ???
+           n0: 73728 0x1FFF000744: ???
+ n1: 40960 0x499EF74: _M_allocate_internal_buffer (fstream.tcc:56)
+  n1: 40960 0x499EF74: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (fstream.tcc:49)
+   n2: 40960 0x49A33BA: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (fstream.tcc:187)
+    n1: 32768 0x49A401F: open (fstream:342)
+     n1: 32768 0x49A401F: open (fstream:739)
+      n3: 32768 0x49A401F: std::basic_ifstream<char, std::char_traits<char> >::basic_ifstream(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (fstream:607)
+       n1: 24576 0x10DF0F: construct<std::basic_ifstream<char>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&> (new_allocator.h:191)
+        n1: 24576 0x10DF0F: construct<std::basic_ifstream<char>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&> (alloc_traits.h:575)
+         n1: 24576 0x10DF0F: void std::vector<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::_M_realloc_append<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:634)
+          n1: 24576 0x10CD8E: std::basic_ifstream<char, std::char_traits<char> >& std::vector<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:123)
+           n1: 24576 0x10A863: merge_sorted_files(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:58)
+            n1: 24576 0x10AD1A: sort_large_file(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:106)
+             n0: 24576 0x10B008: main (sorter.cpp:126)
+       n1: 8192 0x10CD37: construct<std::basic_ifstream<char>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&> (new_allocator.h:191)
+        n1: 8192 0x10CD37: construct<std::basic_ifstream<char>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&> (alloc_traits.h:575)
+         n1: 8192 0x10CD37: std::basic_ifstream<char, std::char_traits<char> >& std::vector<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:117)
+          n1: 8192 0x10A863: merge_sorted_files(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:58)
+           n1: 8192 0x10AD1A: sort_large_file(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:106)
+            n0: 8192 0x10B008: main (sorter.cpp:126)
+       n0: 0 in 1 place, below massif's threshold (1.00%)
+    n1: 8192 0x49A44F7: open (fstream:342)
+     n1: 8192 0x49A44F7: open (fstream:1011)
+      n2: 8192 0x49A44F7: std::basic_ofstream<char, std::char_traits<char> >::basic_ofstream(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (fstream:879)
+       n1: 8192 0x10A928: merge_sorted_files(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:65)
+        n1: 8192 0x10AD1A: sort_large_file(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:106)
+         n0: 8192 0x10B008: main (sorter.cpp:126)
+       n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 2360 0x4CA8488: __fopen_internal (iofopen.c:65)
+  n1: 2360 0x496B3CE: std::__basic_file<char>::open(char const*, std::_Ios_Openmode, int) (basic_file.cc:260)
+   n2: 2360 0x49A33A0: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (fstream.tcc:184)
+    n1: 1888 0x49A401F: open (fstream:342)
+     n1: 1888 0x49A401F: open (fstream:739)
+      n2: 1888 0x49A401F: std::basic_ifstream<char, std::char_traits<char> >::basic_ifstream(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (fstream:607)
+       n1: 1416 0x10DF0F: construct<std::basic_ifstream<char>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&> (new_allocator.h:191)
+        n1: 1416 0x10DF0F: construct<std::basic_ifstream<char>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&> (alloc_traits.h:575)
+         n1: 1416 0x10DF0F: void std::vector<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::_M_realloc_append<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:634)
+          n1: 1416 0x10CD8E: std::basic_ifstream<char, std::char_traits<char> >& std::vector<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:123)
+           n1: 1416 0x10A863: merge_sorted_files(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:58)
+            n1: 1416 0x10AD1A: sort_large_file(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:106)
+             n0: 1416 0x10B008: main (sorter.cpp:126)
+       n0: 472 in 2 places, all below massif's threshold (1.00%)
+    n0: 472 in 1 place, below massif's threshold (1.00%)
+ n1: 2080 0x110B13: std::__new_allocator<std::basic_ifstream<char, std::char_traits<char> > >::allocate(unsigned long, void const*) (new_allocator.h:151)
+  n1: 2080 0x10EFA0: allocate (alloc_traits.h:515)
+   n1: 2080 0x10EFA0: std::_Vector_base<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::_M_allocate(unsigned long) (stl_vector.h:380)
+    n1: 2080 0x10DE28: void std::vector<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::_M_realloc_append<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:596)
+     n1: 2080 0x10CD8E: std::basic_ifstream<char, std::char_traits<char> >& std::vector<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:123)
+      n1: 2080 0x10A863: merge_sorted_files(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:58)
+       n1: 2080 0x10AD1A: sort_large_file(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:106)
+        n0: 2080 0x10B008: main (sorter.cpp:126)
+ n0: 266 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=48
+#-----------
+time=1416432079152
+mem_heap_B=119394
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=1446011329620
+mem_heap_B=119337
+mem_heap_extra_B=175
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=1448955799006
+mem_heap_B=119337
+mem_heap_extra_B=175
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=1451900271317
+mem_heap_B=119394
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=1454844745589
+mem_heap_B=119394
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=1457789226943
+mem_heap_B=119394
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=1460733705867
+mem_heap_B=119394
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=1463678176781
+mem_heap_B=119394
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=1466622650595
+mem_heap_B=119394
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=1469567119433
+mem_heap_B=119394
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=detailed
+n5: 119394 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x49264BF: pool (eh_alloc.cc:235)
+  n1: 73728 0x49264BF: __static_initialization_and_destruction_0 (eh_alloc.cc:373)
+   n1: 73728 0x49264BF: _GLOBAL__sub_I_eh_alloc.cc (eh_alloc.cc:456)
+    n1: 73728 0x40051D6: call_init (dl-init.c:74)
+     n1: 73728 0x40051D6: call_init (dl-init.c:26)
+      n1: 73728 0x40052AC: _dl_init (dl-init.c:121)
+       n1: 73728 0x401D61F: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+        n1: 73728 0x2: ???
+         n1: 73728 0x1FFF00072A: ???
+          n1: 73728 0x1FFF000733: ???
+           n0: 73728 0x1FFF000744: ???
+ n1: 40960 0x499EF74: _M_allocate_internal_buffer (fstream.tcc:56)
+  n1: 40960 0x499EF74: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (fstream.tcc:49)
+   n2: 40960 0x49A33BA: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (fstream.tcc:187)
+    n1: 32768 0x49A401F: open (fstream:342)
+     n1: 32768 0x49A401F: open (fstream:739)
+      n3: 32768 0x49A401F: std::basic_ifstream<char, std::char_traits<char> >::basic_ifstream(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (fstream:607)
+       n1: 24576 0x10DF0F: construct<std::basic_ifstream<char>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&> (new_allocator.h:191)
+        n1: 24576 0x10DF0F: construct<std::basic_ifstream<char>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&> (alloc_traits.h:575)
+         n1: 24576 0x10DF0F: void std::vector<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::_M_realloc_append<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:634)
+          n1: 24576 0x10CD8E: std::basic_ifstream<char, std::char_traits<char> >& std::vector<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:123)
+           n1: 24576 0x10A863: merge_sorted_files(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:58)
+            n1: 24576 0x10AD1A: sort_large_file(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:106)
+             n0: 24576 0x10B008: main (sorter.cpp:126)
+       n1: 8192 0x10CD37: construct<std::basic_ifstream<char>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&> (new_allocator.h:191)
+        n1: 8192 0x10CD37: construct<std::basic_ifstream<char>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&> (alloc_traits.h:575)
+         n1: 8192 0x10CD37: std::basic_ifstream<char, std::char_traits<char> >& std::vector<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:117)
+          n1: 8192 0x10A863: merge_sorted_files(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:58)
+           n1: 8192 0x10AD1A: sort_large_file(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:106)
+            n0: 8192 0x10B008: main (sorter.cpp:126)
+       n0: 0 in 1 place, below massif's threshold (1.00%)
+    n1: 8192 0x49A44F7: open (fstream:342)
+     n1: 8192 0x49A44F7: open (fstream:1011)
+      n2: 8192 0x49A44F7: std::basic_ofstream<char, std::char_traits<char> >::basic_ofstream(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (fstream:879)
+       n1: 8192 0x10A928: merge_sorted_files(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:65)
+        n1: 8192 0x10AD1A: sort_large_file(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:106)
+         n0: 8192 0x10B008: main (sorter.cpp:126)
+       n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 2360 0x4CA8488: __fopen_internal (iofopen.c:65)
+  n1: 2360 0x496B3CE: std::__basic_file<char>::open(char const*, std::_Ios_Openmode, int) (basic_file.cc:260)
+   n2: 2360 0x49A33A0: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (fstream.tcc:184)
+    n1: 1888 0x49A401F: open (fstream:342)
+     n1: 1888 0x49A401F: open (fstream:739)
+      n2: 1888 0x49A401F: std::basic_ifstream<char, std::char_traits<char> >::basic_ifstream(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (fstream:607)
+       n1: 1416 0x10DF0F: construct<std::basic_ifstream<char>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&> (new_allocator.h:191)
+        n1: 1416 0x10DF0F: construct<std::basic_ifstream<char>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&> (alloc_traits.h:575)
+         n1: 1416 0x10DF0F: void std::vector<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::_M_realloc_append<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:634)
+          n1: 1416 0x10CD8E: std::basic_ifstream<char, std::char_traits<char> >& std::vector<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:123)
+           n1: 1416 0x10A863: merge_sorted_files(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:58)
+            n1: 1416 0x10AD1A: sort_large_file(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:106)
+             n0: 1416 0x10B008: main (sorter.cpp:126)
+       n0: 472 in 2 places, all below massif's threshold (1.00%)
+    n0: 472 in 1 place, below massif's threshold (1.00%)
+ n1: 2080 0x110B13: std::__new_allocator<std::basic_ifstream<char, std::char_traits<char> > >::allocate(unsigned long, void const*) (new_allocator.h:151)
+  n1: 2080 0x10EFA0: allocate (alloc_traits.h:515)
+   n1: 2080 0x10EFA0: std::_Vector_base<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::_M_allocate(unsigned long) (stl_vector.h:380)
+    n1: 2080 0x10DE28: void std::vector<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::_M_realloc_append<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:596)
+     n1: 2080 0x10CD8E: std::basic_ifstream<char, std::char_traits<char> >& std::vector<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:123)
+      n1: 2080 0x10A863: merge_sorted_files(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:58)
+       n1: 2080 0x10AD1A: sort_large_file(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:106)
+        n0: 2080 0x10B008: main (sorter.cpp:126)
+ n0: 266 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=58
+#-----------
+time=1472511588406
+mem_heap_B=119337
+mem_heap_extra_B=175
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=1475456069701
+mem_heap_B=119394
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=1478400547394
+mem_heap_B=119394
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=1481345018302
+mem_heap_B=119394
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=1484289495425
+mem_heap_B=119394
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=1487233967440
+mem_heap_B=119394
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=1490178438431
+mem_heap_B=119394
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=1493122907446
+mem_heap_B=119337
+mem_heap_extra_B=175
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=1496067383157
+mem_heap_B=119394
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=1499011852627
+mem_heap_B=119337
+mem_heap_extra_B=175
+mem_stacks_B=0
+heap_tree=detailed
+n5: 119337 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x49264BF: pool (eh_alloc.cc:235)
+  n1: 73728 0x49264BF: __static_initialization_and_destruction_0 (eh_alloc.cc:373)
+   n1: 73728 0x49264BF: _GLOBAL__sub_I_eh_alloc.cc (eh_alloc.cc:456)
+    n1: 73728 0x40051D6: call_init (dl-init.c:74)
+     n1: 73728 0x40051D6: call_init (dl-init.c:26)
+      n1: 73728 0x40052AC: _dl_init (dl-init.c:121)
+       n1: 73728 0x401D61F: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+        n1: 73728 0x2: ???
+         n1: 73728 0x1FFF00072A: ???
+          n1: 73728 0x1FFF000733: ???
+           n0: 73728 0x1FFF000744: ???
+ n1: 40960 0x499EF74: _M_allocate_internal_buffer (fstream.tcc:56)
+  n1: 40960 0x499EF74: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (fstream.tcc:49)
+   n2: 40960 0x49A33BA: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (fstream.tcc:187)
+    n1: 32768 0x49A401F: open (fstream:342)
+     n1: 32768 0x49A401F: open (fstream:739)
+      n3: 32768 0x49A401F: std::basic_ifstream<char, std::char_traits<char> >::basic_ifstream(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (fstream:607)
+       n1: 24576 0x10DF0F: construct<std::basic_ifstream<char>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&> (new_allocator.h:191)
+        n1: 24576 0x10DF0F: construct<std::basic_ifstream<char>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&> (alloc_traits.h:575)
+         n1: 24576 0x10DF0F: void std::vector<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::_M_realloc_append<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:634)
+          n1: 24576 0x10CD8E: std::basic_ifstream<char, std::char_traits<char> >& std::vector<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:123)
+           n1: 24576 0x10A863: merge_sorted_files(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:58)
+            n1: 24576 0x10AD1A: sort_large_file(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:106)
+             n0: 24576 0x10B008: main (sorter.cpp:126)
+       n1: 8192 0x10CD37: construct<std::basic_ifstream<char>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&> (new_allocator.h:191)
+        n1: 8192 0x10CD37: construct<std::basic_ifstream<char>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&> (alloc_traits.h:575)
+         n1: 8192 0x10CD37: std::basic_ifstream<char, std::char_traits<char> >& std::vector<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:117)
+          n1: 8192 0x10A863: merge_sorted_files(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:58)
+           n1: 8192 0x10AD1A: sort_large_file(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:106)
+            n0: 8192 0x10B008: main (sorter.cpp:126)
+       n0: 0 in 1 place, below massif's threshold (1.00%)
+    n1: 8192 0x49A44F7: open (fstream:342)
+     n1: 8192 0x49A44F7: open (fstream:1011)
+      n2: 8192 0x49A44F7: std::basic_ofstream<char, std::char_traits<char> >::basic_ofstream(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (fstream:879)
+       n1: 8192 0x10A928: merge_sorted_files(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:65)
+        n1: 8192 0x10AD1A: sort_large_file(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:106)
+         n0: 8192 0x10B008: main (sorter.cpp:126)
+       n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 2360 0x4CA8488: __fopen_internal (iofopen.c:65)
+  n1: 2360 0x496B3CE: std::__basic_file<char>::open(char const*, std::_Ios_Openmode, int) (basic_file.cc:260)
+   n2: 2360 0x49A33A0: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (fstream.tcc:184)
+    n1: 1888 0x49A401F: open (fstream:342)
+     n1: 1888 0x49A401F: open (fstream:739)
+      n2: 1888 0x49A401F: std::basic_ifstream<char, std::char_traits<char> >::basic_ifstream(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (fstream:607)
+       n1: 1416 0x10DF0F: construct<std::basic_ifstream<char>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&> (new_allocator.h:191)
+        n1: 1416 0x10DF0F: construct<std::basic_ifstream<char>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&> (alloc_traits.h:575)
+         n1: 1416 0x10DF0F: void std::vector<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::_M_realloc_append<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:634)
+          n1: 1416 0x10CD8E: std::basic_ifstream<char, std::char_traits<char> >& std::vector<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:123)
+           n1: 1416 0x10A863: merge_sorted_files(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:58)
+            n1: 1416 0x10AD1A: sort_large_file(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:106)
+             n0: 1416 0x10B008: main (sorter.cpp:126)
+       n0: 472 in 2 places, all below massif's threshold (1.00%)
+    n0: 472 in 1 place, below massif's threshold (1.00%)
+ n1: 2080 0x110B13: std::__new_allocator<std::basic_ifstream<char, std::char_traits<char> > >::allocate(unsigned long, void const*) (new_allocator.h:151)
+  n1: 2080 0x10EFA0: allocate (alloc_traits.h:515)
+   n1: 2080 0x10EFA0: std::_Vector_base<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::_M_allocate(unsigned long) (stl_vector.h:380)
+    n1: 2080 0x10DE28: void std::vector<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::_M_realloc_append<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:596)
+     n1: 2080 0x10CD8E: std::basic_ifstream<char, std::char_traits<char> >& std::vector<std::basic_ifstream<char, std::char_traits<char> >, std::allocator<std::basic_ifstream<char, std::char_traits<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:123)
+      n1: 2080 0x10A863: merge_sorted_files(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:58)
+       n1: 2080 0x10AD1A: sort_large_file(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (sorter.cpp:106)
+        n0: 2080 0x10B008: main (sorter.cpp:126)
+ n0: 209 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=68
+#-----------
+time=1501956322591
+mem_heap_B=119337
+mem_heap_extra_B=175
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=1504900793816
+mem_heap_B=119394
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=1507845261788
+mem_heap_B=119337
+mem_heap_extra_B=175
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=1510789736639
+mem_heap_B=119394
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=1513734206540
+mem_heap_B=119394
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=1516678674115
+mem_heap_B=119337
+mem_heap_extra_B=175
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=1519623154321
+mem_heap_B=119394
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=empty
